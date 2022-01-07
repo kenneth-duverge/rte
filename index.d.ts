@@ -11,8 +11,3 @@ declare module 'slate' {
     Text: CustomText;
   }
 }
-
-declare module 'emotion' {
-  interface cx {}
-  interface css {}
-}
