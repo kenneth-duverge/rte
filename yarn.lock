@@ -589,9 +589,10 @@
     "@typescript-eslint/types" "5.9.0"
     eslint-visitor-keys "^3.0.0"
 
-"@vimeo/iris@kenneth-duverge/iris#main":
-  version "0.115.0"
-  resolved "https://codeload.github.com/kenneth-duverge/iris/tar.gz/d6fd44371956f497a4ffd0d36ac6dc6135b5f1ad"
+"@vimeo/iris@kenneth-duverge/iris/src#main":
+  version "0.116.0"
+  resolved "https://registry.yarnpkg.com/@vimeo/iris/-/iris-0.116.0.tgz#df9672239c8138032c530841d70cbe5cf76835ad"
+  integrity sha512-8Aifd1uafclAmF5Z4NGuKWoRjdUuYNUSbjrTXbHF6weilQ4gOaC2ye7IAMF8g9kqQDqtCWWXo6DGvLrvOPn2dw==
 
 acorn-jsx@^5.3.1:
   version "5.3.2"
