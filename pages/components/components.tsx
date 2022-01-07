@@ -1,12 +1,5 @@
-import React, { Ref, PropsWithChildren, useEffect, useState, ReactNode } from 'react';
+import { useEffect, useState, ReactNode } from 'react';
 import styled, { css } from 'styled-components';
-import ReactDOM from 'react-dom';
-
-interface BaseProps {
-  className: string;
-  [key: string]: unknown;
-}
-type OrNull<T> = T | null;
 
 export const Button = styled.span<{ reversed: boolean; active: boolean }>`
   ${({ active, reversed }) => css`

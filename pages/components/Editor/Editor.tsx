@@ -1,4 +1,4 @@
-import { useState, useMemo, useRef, useEffect, MouseEventHandler } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import { Slate, Editable, ReactEditor, withReact, useSlate } from 'slate-react';
 import { Editor, Transforms, Text, createEditor, Descendant, Range } from 'slate';
 
@@ -7,8 +7,6 @@ import { Button, Container, Icon, Menu, Portal } from '../components';
 const HoveringMenuExample = () => {
   const [value, setValue] = useState<Descendant[]>(initialValue);
   const editor = useMemo(() => withReact(createEditor()), []);
-
-  console.log({ value });
 
   return (
     <Container>
